@@ -1,0 +1,17 @@
+{
+  "name": "SMSRegister",
+  "short_name": "SMSRegister",
+  "description": "Order virtual numbers and receive SMS verification codes on Android.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f8f8ff",
+  "theme_color": "#f8f8ff",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

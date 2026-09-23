@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1254" height="1254" viewBox="0 0 1254 1254"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Verified message</title>
+  <desc id="desc">A blue message bubble, a dark message panel, and a blue verification badge on a deep navy rounded-square background.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="129" y1="54" x2="1111" y2="1191" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071329"/>
+      <stop offset="0.5" stop-color="#07152f"/>
+      <stop offset="1" stop-color="#061126"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientTransform="translate(618 575) rotate(90) scale(624 624)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14264d" stop-opacity=".34"/>
+      <stop offset=".73" stop-color="#0a1730" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#020817" stop-opacity=".38"/>
+    </radialGradient>
+
+    <linearGradient id="backPanel" x1="560" y1="217" x2="976" y2="906" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34446b"/>
+      <stop offset=".48" stop-color="#263657"/>
+      <stop offset="1" stop-color="#1c2d50"/>
+    </linearGradient>
+    <linearGradient id="backEdge" x1="506" y1="248" x2="1028" y2="859" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8da6e6" stop-opacity=".58"/>
+      <stop offset=".36" stop-color="#506792" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#091329" stop-opacity=".78"/>
+    </linearGradient>
+
+    <linearGradient id="bubble" x1="309" y1="352" x2="715" y2="916" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1bb5f3"/>
+      <stop offset=".35" stop-color="#087cf4"/>
+      <stop offset=".75" stop-color="#0864f5"/>
+      <stop offset="1" stop-color="#057ce8"/>
+    </linearGradient>
+    <radialGradient id="bubbleGlow" cx="0" cy="0" r="1" gradientTransform="translate(381 384) rotate(46) scale(420 432)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5ed9f8" stop-opacity=".35"/>
+      <stop offset=".54" stop-color="#1c99f5" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#075cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bubbleEdge" x1="247" y1="368" x2="754" y2="917" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#86e5ff" stop-opacity=".76"/>
+      <stop offset=".28" stop-color="#65d7ff" stop-opacity=".18"/>
+      <stop offset=".72" stop-color="#003fc8" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#00d8ff" stop-opacity=".64"/>
+    </linearGradient>
+
+    <linearGradient id="white" x1="317" y1="481" x2="693" y2="743" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".52" stop-color="#f7faff"/>
+      <stop offset="1" stop-color="#e8f0ff"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="650" y1="728" x2="843" y2="1038" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16aaf1"/>
+      <stop offset=".35" stop-color="#0789f0"/>
+      <stop offset="1" stop-color="#1250f8"/>
+    </linearGradient>
+    <linearGradient id="badgeRing" x1="637" y1="739" x2="873" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".6" stop-color="#f9fbff"/>
+      <stop offset="1" stop-color="#e7edfb"/>
+    </linearGradient>
+
+    <filter id="panelShadow" x="-22%" y="-22%" width="144%" height="152%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="17" result="blur"/>
+      <feOffset in="blur" dy="13" result="offset"/>
+      <feFlood flood-color="#010616" flood-opacity=".8" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bubbleShadow" x="-20%" y="-18%" width="145%" height="152%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="17" result="blur"/>
+      <feOffset in="blur" dy="15" result="offset"/>
+      <feFlood flood-color="#010718" flood-opacity=".82" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softInset" x="-16%" y="-45%" width="132%" height="190%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"/>
+      <feOffset in="blur" dy="2" result="offset"/>
+      <feFlood flood-color="#9eabc3" flood-opacity=".72" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="badgeShadow" x="-25%" y="-25%" width="150%" height="155%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="15" result="blur"/>
+      <feOffset in="blur" dy="12" result="offset"/>
+      <feFlood flood-color="#010718" flood-opacity=".75" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1254" height="1254" rx="126" fill="url(#bg)"/>
+  <rect width="1254" height="1254" rx="126" fill="url(#bgGlow)"/>
+
+  <g filter="url(#panelShadow)">
+    <path d="M590 218H852c35 0 65 13 89 39l91 101c25 28 37 57 37 94v337c0 67-54 121-121 121H584c-67 0-121-54-121-121V339c0-67 54-121 127-121Z" fill="url(#backPanel)"/>
+    <path d="M590 219H852c34 0 64 13 88 39l91 101c25 28 36 57 36 93v337c0 66-53 119-119 119H584c-66 0-119-53-119-119V339c0-66 53-120 125-120Z" fill="none" stroke="url(#backEdge)" stroke-width="3"/>
+  </g>
+
+  <g fill="url(#white)" filter="url(#softInset)">
+    <rect x="873" y="457" width="124" height="75" rx="18"/>
+    <rect x="873" y="548" width="124" height="85" rx="18"/>
+    <rect x="873" y="650" width="124" height="84" rx="18"/>
+  </g>
+
+  <g filter="url(#bubbleShadow)">
+    <path d="M346 334h333c76 0 138 62 138 138v293c0 79-64 143-143 143H450l-127 97c-16 12-39 1-39-19V872c-45-22-74-67-74-118V472c0-76 61-138 136-138Z" fill="url(#bubble)"/>
+    <path d="M346 336h333c75 0 136 61 136 136v293c0 78-63 141-141 141H449l-127 97c-15 11-36 1-36-18V871c-45-21-74-67-74-117V472c0-75 60-136 134-136Z" fill="url(#bubbleGlow)"/>
+    <path d="M346 335h333c75 0 137 61 137 137v293c0 78-64 142-142 142H450l-128 97c-15 12-37 1-37-18V872c-45-22-74-67-74-118V472c0-76 60-137 135-137Z" fill="none" stroke="url(#bubbleEdge)" stroke-width="3"/>
+  </g>
+
+  <g fill="url(#white)" filter="url(#softInset)">
+    <rect x="298" y="487" width="399" height="55" rx="28"/>
+    <rect x="298" y="589" width="350" height="55" rx="28"/>
+    <rect x="298" y="690" width="244" height="55" rx="28"/>
+  </g>
+
+  <g filter="url(#badgeShadow)">
+    <circle cx="747" cy="878" r="180" fill="url(#badgeRing)"/>
+    <circle cx="747" cy="878" r="157" fill="url(#badge)"/>
+    <circle cx="747" cy="878" r="157" fill="none" stroke="#65d6ff" stroke-opacity=".38" stroke-width="2"/>
+    <path d="m689 877 39 40 85-82" fill="none" stroke="url(#white)" stroke-width="41" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
