@@ -21,7 +21,7 @@ function escapeHtml(value) {
 export function brandLink(depth = 0) {
   const assetRoot = depth ? "../" : "./";
   return `<a class="brand" href="${depth ? "../" : "./"}" aria-label="SMSRegister home">
-    <span class="brand-mark"><img src="${assetRoot}favicon.svg" alt="" width="38" height="38"></span>
+    <span class="brand-mark"><img src="${assetRoot}favicon.svg" alt="" width="40" height="40" decoding="async"></span>
     <span>SMSRegister</span>
   </a>`;
 }
@@ -132,6 +132,8 @@ export function pageDocument({
   <link rel="alternate" hreflang="en" href="${canonicalUrl}">
   <link rel="alternate" hreflang="x-default" href="${canonicalUrl}">
   <link rel="icon" href="${assetRoot}favicon.svg" type="image/svg+xml" sizes="any">
+  <link rel="icon" href="${assetRoot}icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="${assetRoot}apple-touch-icon.png" sizes="180x180">
   <link rel="manifest" href="${assetRoot}site.webmanifest">
   <link rel="stylesheet" href="${assetRoot}assets/styles.css">
   <script type="application/ld+json">${structuredData}</script>

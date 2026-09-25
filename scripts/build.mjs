@@ -31,6 +31,9 @@ await cp(path.join(root, "node_modules", "@fontsource-variable", "geist", "files
 await cp(path.join(root, "node_modules", "@fontsource-variable", "geist-mono", "files", "geist-mono-latin-wght-normal.woff2"), path.join(dist, "assets", "fonts", "geist-mono-latin-wght-normal.woff2"));
 await cp(path.join(root, "node_modules", "@fontsource-variable", "geist-mono", "files", "geist-mono-latin-ext-wght-normal.woff2"), path.join(dist, "assets", "fonts", "geist-mono-latin-ext-wght-normal.woff2"));
 await cp(path.join(root, "public", "favicon.svg"), path.join(dist, "favicon.svg"));
+await cp(path.join(root, "public", "icon-192.png"), path.join(dist, "icon-192.png"));
+await cp(path.join(root, "public", "icon-512.png"), path.join(dist, "icon-512.png"));
+await cp(path.join(root, "public", "apple-touch-icon.png"), path.join(dist, "apple-touch-icon.png"));
 await cp(path.join(root, "src", "site.webmanifest"), path.join(dist, "site.webmanifest"));
 
 const publicUrls = ROUTES.map((route) =>
